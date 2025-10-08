@@ -1,0 +1,26 @@
+%dw 2.0
+
+type auto_6417bb64_3443_480d_8850_ad17e99da46c_Output_Attributes = {|
+  clientCertificate?: {|
+    publicKey?: {|  |}, 
+    "type"?: String, 
+    encoded?: Binary
+  |}, 
+  headers: {| transactionId: String |}, 
+  listenerPath: String, 
+  method: String, 
+  queryParams: {|  |}, 
+  queryString: String, 
+  relativePath: String, 
+  remoteAddress: String, 
+  requestPath: String, 
+  requestUri: String, 
+  scheme: String, 
+  uriParams: {|
+    transactionType: String, 
+    transportcompany: String
+  |}, 
+  version: String, 
+  localAddress: String
+|}
+
