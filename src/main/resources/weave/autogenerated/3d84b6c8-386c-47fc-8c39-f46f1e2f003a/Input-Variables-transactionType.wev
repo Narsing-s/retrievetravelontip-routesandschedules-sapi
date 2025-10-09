@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_3d84b6c8_386c_47fc_8c39_f46f1e2f003a_Input_Variables_transactionType = Any
+
